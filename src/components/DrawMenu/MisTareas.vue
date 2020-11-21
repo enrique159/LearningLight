@@ -1,6 +1,6 @@
 <template>
   <v-container class="homeworkStats">
-    <v-row>
+    <v-row class="espacios">
       <v-col class="opcion" cols="12">
         <v-btn class="opcionbtn" depressed color="#FFFFFF">
           <v-row align="center">
@@ -12,20 +12,25 @@
           </v-row>
         </v-btn>
       </v-col>
-      <v-col class="tarea" cols="12">
-        <span>Álgebra Lineal</span>
+      <v-col
+        class="tarea"
+        cols="12"
+        v-for="tarea in tareas"
+        :key="tarea.asignatura"
+      >
+        <span>{{ tarea.asignatura }}</span>
         <v-progress-linear
           id="ProgressTarea"
           color="#525ADF"
           rounded
-          value="80"
+          :value="tarea.porcentaje"
         ></v-progress-linear>
         <v-row justify="space-between">
           <v-col cols="9">
-            <span>5/8</span>
+            <span>{{ tarea.modulos }}</span>
           </v-col>
           <v-col cols="2">
-            <span>80%</span>
+            <span>{{ tarea.porcentaje }}% </span>
           </v-col>
         </v-row>
       </v-col>
@@ -34,7 +39,29 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      tareas: [
+        {
+          asignatura: "Álgebra Lineal",
+          porcentaje: 80,
+          modulos: "5/8",
+        },
+        {
+          asignatura: "Bases de Tipografía",
+          porcentaje: 50,
+          modulos: "4/8",
+        },
+        {
+          asignatura: "Taller de Diseño",
+          porcentaje: 50,
+          modulos: "4/8",
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -48,10 +75,22 @@ export default {};
     right: 0px;
   }
 
-  .tarea{
-    padding: 24px;
+  .espacios{
+    padding: 0px 8px;
+  }
 
-    #ProgressTarea{
+  .opcion {
+    margin-bottom: 12px;
+  }
+
+  .tarea {
+    padding: 8px 24px;
+
+    span {
+      font-size: 14px;
+    }
+
+    #ProgressTarea {
       margin-top: 12px;
     }
   }

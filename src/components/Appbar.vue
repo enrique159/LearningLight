@@ -22,7 +22,7 @@
           <v-icon id="searchicon" medium color="#252525"> mdi-bell </v-icon>
         </v-btn>
         <img
-          src="https://profiles.howard.edu/sites/profiles.howard.edu/files/yakubu.jpg"
+          src="@/assets/profile_picture.jpg"
           alt="Profile"
         />
         <span>David Fargan</span>
@@ -44,7 +44,7 @@ export default {
   background-color: rgb(255, 255, 255);
   border-bottom: 2px solid rgb(239, 240, 255);
   position: fixed;
-  overflow: hidden;
+  z-index: 10;
   width: 100%;
 
   .acomodo {
@@ -116,7 +116,7 @@ export default {
     vertical-align: middle;
     text-align: center;
 
-    .btnbell{
+    .btnbell {
       margin: 4px;
       margin-right: 24px;
     }
@@ -124,10 +124,13 @@ export default {
     img {
       margin-top: 3px;
       height: 42px;
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover;
       border-radius: 24px;
     }
 
-    span{
+    span {
       margin-top: 14px;
       margin-left: 12px;
       text-align: center;

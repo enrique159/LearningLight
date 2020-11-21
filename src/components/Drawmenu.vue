@@ -55,7 +55,7 @@ export default {
     };
   },
   components:{
-    MisTareas
+    MisTareas,
   }
 };
 </script>
@@ -65,6 +65,8 @@ export default {
   border-right: 2px solid rgb(239, 240, 255);
   width: 256px;
   height: 100vh;
+  max-height: 100vh;
+  float:left;
 
   .espacio {
     margin-top: 82px;
@@ -79,7 +81,7 @@ export default {
   }
 
   .opcion {
-    padding: 8px 12px;
+    padding: 8px 4px;
     .opcionbtn {
       width: 100%;
       text-transform: none;

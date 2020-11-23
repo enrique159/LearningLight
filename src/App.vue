@@ -2,14 +2,14 @@
   <div>
     <Appbar/>
     <Drawmenu/>
-    <Optionbar/>
+    <ContentHome/>
   </div>
 </template>
 
 <script>
 import Appbar from './components/Appbar'
 import Drawmenu from './components/Drawmenu'
-import Optionbar from './components/Optionbar'
+import ContentHome from './components/ContentHome'
 
 export default {
   name: "App",
@@ -19,7 +19,7 @@ export default {
   components: {
     Appbar,
     Drawmenu,
-    Optionbar
+    ContentHome
   },
 };
 </script>

@@ -66,6 +66,7 @@ export default {
   width: 256px;
   height: 100vh;
   max-height: 100vh;
+  position: fixed;
   float:left;
 
   .espacio {

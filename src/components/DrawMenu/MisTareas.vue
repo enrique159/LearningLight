@@ -26,10 +26,10 @@
           :value="tarea.porcentaje"
         ></v-progress-linear>
         <v-row justify="space-between">
-          <v-col cols="9">
+          <v-col cols="9" class="inform">
             <span>{{ tarea.modulos }}</span>
           </v-col>
-          <v-col cols="2">
+          <v-col cols="2" class="inform">
             <span>{{ tarea.porcentaje }}% </span>
           </v-col>
         </v-row>
@@ -75,7 +75,7 @@ export default {
     right: 0px;
   }
 
-  .espacios{
+  .espacios {
     padding: 0px 8px;
   }
 
@@ -84,14 +84,18 @@ export default {
   }
 
   .tarea {
-    padding: 8px 24px;
+    padding: 6px 20px;
+
+    .inform {
+      padding-top: 6px;
+    }
 
     span {
       font-size: 14px;
     }
 
     #ProgressTarea {
-      margin-top: 12px;
+      margin-top: 10px;
     }
   }
 }

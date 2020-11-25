@@ -58,7 +58,7 @@ export default {
 
 <style lang="scss" scoped>
 .linea {
-  padding: 16px 32px;
+  padding: 18px 32px;
 
   .boton {
     margin: 12px 8px 12px;

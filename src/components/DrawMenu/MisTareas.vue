@@ -55,8 +55,8 @@ export default {
         },
         {
           asignatura: "Taller de Diseño",
-          porcentaje: 50,
-          modulos: "4/8",
+          porcentaje: 30,
+          modulos: "2/8",
         },
       ],
     };

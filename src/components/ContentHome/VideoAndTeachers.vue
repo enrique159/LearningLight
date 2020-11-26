@@ -12,12 +12,17 @@
         </v-row>
       </v-col>
       <v-col cols="4" class="columna">
-        <v-row class="titulo">
-          <h4>Chats de Temas <span>12</span></h4>
-        </v-row>
+        <v-btn class="opcionbtn" depressed color="#FFFFFF">
+          <v-row align="center">
+            <span id="tituloProf">Top Profesores</span>
+            <v-icon id="ArrowRight" medium color="#525ADF">
+              mdi-arrow-right
+            </v-icon>
+          </v-row>
+        </v-btn>
         <v-row class="cards">
           <v-col>
-            <ThemesCards />
+            <TeachersCards />
           </v-col>
         </v-row>
       </v-col>
@@ -27,7 +32,7 @@
 
 <script>
 import VideoCards from "../Cards/VideoCards";
-import ThemesCards from "../Cards/ThemesCards";
+import TeachersCards from "../Cards/TeachersCards";
 
 export default {
   data() {
@@ -35,7 +40,7 @@ export default {
   },
   components: {
     VideoCards,
-    ThemesCards,
+    TeachersCards,
   },
 };
 </script>
@@ -67,6 +72,23 @@ export default {
         font-weight: 600;
         color: rgb(80, 87, 222);
       }
+    }
+  }
+
+  .opcionbtn {
+    width: 100%;
+    #tituloProf {
+      text-transform: none;
+      letter-spacing: normal;
+      font-weight: 400;
+      font-size: 18px;
+      color: rgb(64, 42, 101);
+      padding-top: 3px;
+      padding-left: 8px;
+    }
+    #ArrowRight {
+      position: absolute;
+      right: 0px;
     }
   }
 }

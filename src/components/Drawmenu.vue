@@ -70,11 +70,11 @@ export default {
   float:left;
 
   .espacio {
-    margin-top: 82px;
+    margin-top: 62px;
   }
 
   #espacio2 {
-    margin-top: 24px;
+    margin-top: 12px;
   }
 
   .linea {

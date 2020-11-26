@@ -25,7 +25,7 @@
           src="@/assets/profile_picture.jpg"
           alt="Profile"
         />
-        <span>David Fargan</span>
+        <span>Jenny Rivera</span>
       </v-row>
     </div>
   </div>

@@ -25,16 +25,13 @@ para ejecutarse correctamente.
 ```
 npm run serve
 ```
+El comando *npm run serve* ejecuta el sitio web en el **localhost:8080** y permite que cambios en el
+codigo se muestren en el momento gracias al hot-reload.
 
 ### Compilación para Production Enviroment
 ```
 npm run build
 ```
-
+Tras finalizar cambios de desarrollo se puede ejecutar este comando para exportar los archivos finales del proyecto.
 ### Configuraciones y documentación
 Visitar [Configuration Reference](https://cli.vuejs.org/config/).
-
----
----
-
-# Acerca del Proyecto

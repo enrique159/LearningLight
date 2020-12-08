@@ -3,7 +3,7 @@
 Este diseño de interfaz está basado en el proyecto de LearningLight de los diseñadores
 [RhinodaTeam](https://dribbble.com/RhinodaTeam). Se utilizó Vue, y Vuetify para el manejo de Grids.
 
-> Enlace en vivo del sitio: [LearningLight](https://learninglight.netlify.app)
+> Enlace en vivo del sitio: [LearningLight](https://learning-light.vercel.app/)
 
 ![Image](https://cdn.dribbble.com/users/3488450/screenshots/10581307/media/5f5a057399ed802e87463eb8ffbb5c6c.png)
 

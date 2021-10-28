@@ -27,28 +27,28 @@ export default {
         {
           nombre: "Edgar Aguilar",
           foto:
-            "https://res.cloudinary.com/enrique159/image/upload/c_fill,h_258,w_258/v1606415306/Captura_de_Pantalla_2020-11-26_a_la_s_11.27.40_mkmzbk.png",
+            "https://res.cloudinary.com/zerodown2d/image/upload/c_fill,h_258,w_258/v1606415306/Captura_de_Pantalla_2020-11-26_a_la_s_11.27.40_mkmzbk.png",
           exp: "5",
           calif: 4.8,
         },
         {
           nombre: "Alberto Matamoros",
           foto:
-            "https://res.cloudinary.com/enrique159/image/upload/c_fill,h_1500,w_1500/v1606412501/MG_8139_ixockm.jpg",
+            "https://res.cloudinary.com/zerodown2d/image/upload/c_fill,h_1500,w_1500/v1606412501/MG_8139_ixockm.jpg",
           exp: "3",
           calif: 4.2,
         },
         {
           nombre: "Sarah Figueroa",
           foto:
-            "https://res.cloudinary.com/enrique159/image/upload/c_fill,g_face:center,h_417,w_417,x_496,y_0/v1606412674/sonriente-jovencita-camiseta-disenada-buen-humor-pelo-largo-blanco_140725-14573_oy4ex7.jpg",
+            "https://res.cloudinary.com/zerodown2d/image/upload/c_fill,g_face:center,h_417,w_417,x_496,y_0/v1606412674/sonriente-jovencita-camiseta-disenada-buen-humor-pelo-largo-blanco_140725-14573_oy4ex7.jpg",
           exp: "7",
           calif: 5.2,
         },
         {
           nombre: "Patricia Armendariz",
           foto:
-            "https://res.cloudinary.com/enrique159/image/upload/v1606413105/tlfhcpsxaowcsj8npnxr.jpg",
+            "https://res.cloudinary.com/zerodown2d/image/upload/v1606413105/tlfhcpsxaowcsj8npnxr.jpg",
           exp: "2",
           calif: 4.5,
         },

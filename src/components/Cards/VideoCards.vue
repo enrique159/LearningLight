@@ -4,7 +4,7 @@ zerodown2d<template>
       <div
         class="tarjeta"
         style="
-          background-image: url('https://res.cloudinary.com/enrique159/image/upload/v1606332898/bgp-01_jecn0t.png');
+          background-image: url('https://res.cloudinary.com/zerodown2d/image/upload/v1606332898/bgp-01_jecn0t.png');
         "
       >
         <h2>We create effective<br />text for landing</h2>
@@ -30,7 +30,7 @@ zerodown2d<template>
           id="tarjeta1"
           class="tarjeta"
           style="
-            background-image: url('https://res.cloudinary.com/enrique159/image/upload/v1606332898/bgp-02_gdtufg.png');
+            background-image: url('https://res.cloudinary.com/zerodown2d/image/upload/v1606332898/bgp-02_gdtufg.png');
           "
         >
           <h3>Aprende a diseñar <br />tu Business Card</h3>
@@ -52,7 +52,7 @@ zerodown2d<template>
           id="tarjeta2"
           class="tarjeta"
           style="
-            background-image: url('https://res.cloudinary.com/enrique159/image/upload/v1606332898/bgp-03_hvduii.png');
+            background-image: url('https://res.cloudinary.com/zerodown2d/image/upload/v1606332898/bgp-03_hvduii.png');
           "
         >
           <h3>Animaciones en<br />After Effects</h3>
